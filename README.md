@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🚀 QuickCart Feedback Intelligence System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An end-to-end data intelligence platform that transforms raw customer feedback into actionable business insights using data cleaning, NLP-based sentiment analysis, and interactive visualization.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Project Overview
 
-### `npm start`
+QuickCart is a food and grocery delivery platform that receives thousands of customer feedback messages daily from multiple sources:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- App Store Reviews  
+- Support Tickets  
+- Survey Comments  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project builds a complete pipeline to:
 
-### `npm test`
+- Clean and preprocess raw feedback data
+- Detect sentiment (Positive / Negative / Neutral)
+- Classify complaints into business categories
+- Generate short issue summaries
+- Visualize insights through an interactive dashboard
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🎯 Problem Statement
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Customer feedback is unstructured and scattered across multiple channels, making it difficult for businesses to understand:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- What customers are complaining about
+- Which issues occur most frequently
+- Whether customer satisfaction is improving or declining
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This system automates that analysis.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📊 Data Processing Pipeline
+- Removes duplicates
+- Filters noisy/meaningless feedback (e.g., "meh", "....")
+- Handles missing values
+- Standardizes timestamps
+- Emoji-aware sentiment detection
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🤖 NLP Enrichment
+- Sentiment Classification:
+  - Positive
+  - Negative
+  - Neutral
+- Category Classification:
+  - Billing
+  - App Bug
+  - Delivery
+  - Staff/Support
+  - Other
+- Issue summarization (short text extraction)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📈 Interactive Dashboard (React)
+- CSV upload functionality
+- Real-time processing & visualization
+- Sentiment distribution pie chart
+- Complaint category bar chart
+- KPI cards (Total / Positive / Negative / Neutral)
+- Processed data table view
+- Download processed CSV
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🏗️ System Architecture
+<img width="1774" height="887" alt="ChatGPT Image Jun 13, 2026, 10_48_03 AM" src="https://github.com/user-attachments/assets/31f6a06b-b97a-4ac0-8b51-c2bc7dd089fc" />
