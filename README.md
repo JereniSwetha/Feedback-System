@@ -67,5 +67,11 @@ This system automates that analysis.
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ PIPELINE
 <img width="1774" height="887" alt="ChatGPT Image Jun 13, 2026, 10_48_03 AM" src="https://github.com/user-attachments/assets/31f6a06b-b97a-4ac0-8b51-c2bc7dd089fc" />
+
+## RESULT
+<img width="602" height="406" alt="Picture1" src="https://github.com/user-attachments/assets/2b5dd974-5bec-411b-934d-5149a36385a1" />
+<img width="602" height="433" alt="Picture2" src="https://github.com/user-attachments/assets/e5829374-c7bb-42cd-bb6d-d64d50c44bf3" />
+
+
